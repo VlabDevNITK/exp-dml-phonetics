@@ -1,21 +1,38 @@
-### These procedure steps will be followed on the simulator:
+### These procedure steps will be followed on the simulator
 
-1.Open the simulation of Morse code Syntax by navigating through the introductory paragraph,and then proceed by selecting the next button located at bottom right corner.
+**Step 1:** Open the simulation of Ham Radio Phonetics by navigating through the introductory paragraph, and then proceed by selecting the “NEXT” button located in the bottom right corner.
 
-![image1](images/image1.png)
+   ![Image 1](images/1.png)
 
-2.Select a number from the slider and click submit button.
+**Step 2:** Provide 2 radio buttons for the above 2 options. Upon selecting the option, move to the following step by clicking on the Next button.
 
-![image2](images/image2.png)
+   ![Image 2](images/2.png)
 
-3.Click on the Hint To Remember button to give an example of the Morse Code.
+#### IF ALPHABETS SELECTED:
 
-![image3](images/image3.png)
+**Step 3:** Select the alphabet provided below, and then click on the submit button to start the transmission process.
 
-4.Click on the play button to play the Morse Code syntax.
+   ![Image 3](images/3.png)
 
-![image4](images/image4.png)
+**Step 4:** Pay attention to the phonetics that pertain to the user's selected selection. To obtain the phonetic pronunciation of a chosen alphabet, click the Pronounce button.
 
-5.After the display of morse code, click on repeat button. It will redirect to STEP1 for selecting a new Morse Code Syntax.
+   ![Image 4](images/4.png)
 
-![image5](images/image5.png)
+**Step 5:** Get the phonetic pronunciation of a chosen alphabet after pressing the "pronounce" button. To carry out the action again, click the repeat button.
+
+   ![Image 5](images/5.png)
+
+
+#### IF FIGURE CODE SELECTED:
+
+**Step 1:** Select the figure code.
+
+   ![Image 1](images/6.png)
+
+**Step 2:** Select the figure code (0-9 and “0.0/ Full stop) in the box provided. Click on the Submit button to start the transmission process.
+
+   ![Image 2](images/7.png)
+
+**Step 3:** Observe the figure code relevant to the option chosen by the user. To obtain the phonetic pronunciation of a chosen figure, click the Pronounce button and get the phonetic pronunciation of the figure code.
+
+   ![Image 3](images/8.png)

@@ -1,0 +1,508 @@
+  /*mathstyle.css*/  
+span.frac {
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+}
+span.frac > sup, span.frac > sub {
+display: block;
+font: inherit;
+padding: 0 0.3em;
+}
+span.frac > sup {border-bottom: 0.08em solid;}
+span.frac > span {display: none;}
+    
+	
+#simscreen
+{
+	position: relative;
+	left:0px;
+	top:0px;
+	height: 600px; 
+	width:800px;
+	border:solid 1px;
+}
+
+body {
+    font-family: 'Verdana' ;
+    
+    margin: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+
+#title{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	background-color: black;
+	font-family: Verdana;
+	color: white;
+	text-transform: uppercase;
+	align-items: center;
+}
+
+#title h3
+{
+	padding-top:2px;
+	margin:0px;
+}	
+
+.simsubscreen
+{
+	position:absolute;
+	left:50px;
+	top:50px;
+	height:530px;
+	width:745px;
+}
+
+.incanvas
+{
+	margin:5px 0 0 5px;
+	padding:0;
+	width: 705px;
+	position: relative;
+	right: 15px;
+	line-height: 1.4;
+}
+
+
+
+.nextbutton
+{
+	position:absolute;
+	left:690px;
+	top:465px;
+	cursor:pointer;
+}
+
+.circlebg
+{
+	border-radius:100%;
+	font-size:25px;
+	color:#fff;
+	text-align:center;
+	background:#000;
+	position: relative;
+	right: 17px;
+	
+}
+
+.steptext
+{
+	display:inline;
+	font-size:14px;
+	position: relative;
+	right: 20px;
+}
+
+p{
+	line-height: 1.4;
+	position: relative;
+	right: 8px;
+}
+
+
+#copyright{
+	position: absolute;
+	left:50px;
+	top: 580px;
+	font-size:12px
+}
+#canvas0 p{
+    margin-left:14px; 
+    font-size: 81%;
+    /* margin-right: 20px; */
+    text-align: justify;
+    margin-right: 30px;
+
+}
+
+#canvas0 h2{
+	margin-left: 14px;
+	font-size: 18px;
+ }
+ 
+ form {
+	padding-left: 86px;
+	padding-top: 49px;
+}
+
+.select {
+	padding-left: 163px;
+	padding-top: 58px;
+}
+.btn {
+	position: absolute;
+	left: 345px;
+	top: 340px;
+	 }
+
+	 
+	 
+	 .inline-paragraphs p {
+		display: inline-block;
+		margin-right: 180px;
+		margin-left: 50px;
+
+		/* Adjust the margin as needed */
+	} 
+
+	#outputValue {
+		position: absolute;
+		right: 328px;
+		/* font-weight: bold; */
+	}
+
+	#phoneticsValue {
+		position: absolute;
+		right: 20px;
+		font-weight: bold;
+
+	
+	}
+
+	#alphabetSpokenValues {
+		position: absolute;
+		left: 15px;
+	}
+
+  
+
+	#repeatImage{
+		display: none; /* Initially hide the image */
+		position: absolute;
+		left: 330px;
+		top: 440px;
+		padding: 8px;
+		border-radius: 50%;
+		cursor: pointer;
+	  
+	}
+	#repeatImage a {
+	text-decoration: none; /* Remove underline for the link */
+	}
+
+
+	.button {
+		background-color: #ffffff;
+		border: 2px solid black;
+		color: black;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+
+	}
+
+	.button1 {
+		border-radius: 12px;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 49%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+	.button2 {
+		border-radius: 50%;
+		margin: 0;
+		position: absolute;
+		top: 80%;
+		left: 48%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+
+	}
+	.inline-paragraphs {
+		position: relative;
+		padding-top: 86px;
+	}
+	.sub{
+		position: absolute;
+	left: 348px;
+	top: 220px;
+	}
+	.error-message {
+		color: red;
+		text-align: center;
+		padding-top: 1px;
+		margin-right: 10px;
+		
+	}
+
+	#errorMessage1{
+		color: red;
+		position: absolute;
+		margin-top:300px ;
+		left: 210px;
+	}
+
+
+
+	/* Add media query for smaller screens */
+@media only screen and (max-width: 700px) {
+    #title {
+        font-size: 150%; /* Adjust font size for smaller screens */
+		height: 4vh;
+    }
+	#copyright{
+		right: -480px;
+	  }
+	}
+
+
+	  
+	  .lowercase {
+		font-size: 80%; /* Adjust the font size for lowercase letter */
+		margin-left: 1px; /* Add some space between uppercase and lowercase */
+		margin-top: 3.5px;
+	  }
+
+	  .submitFormBtn{
+		position: relative;
+		top: 245px;
+		right: 20px;
+		margin-top: 10px;
+		cursor: pointer;
+	  }
+
+	  
+
+	  #outputValue2 {
+		position: absolute;
+		top: 92px; /* Adjust the top position as needed */
+		left: 331px; /* Adjust the left position as needed */
+		font-weight: bold;
+	  }
+	  
+	 
+
+	 .firstRow{
+		display: flex;
+		padding: 1px;
+		margin-top: 14px;
+
+	 }
+
+	 .secondRow{
+		display: flex;
+		padding: 1px;
+		
+		
+	 }
+
+	 .thirdRow{
+		display: flex;
+		padding: 1px;
+	 }
+
+	 .fourthRow{
+		display: flex;	
+		padding: 1px;
+	 }
+
+	.fifthRow{
+		display: flex;
+		padding: 1px;
+		
+		
+	}
+
+
+
+	.firstRowNumbers{
+		display: flex;
+	}
+	.secondRowNumbers{
+		display: flex;
+	}
+	.thirdRowNumbers{
+		display: flex;
+	}
+	.firstRowNumbers{
+		display: flex;
+	}
+	.fifthRowNumbers{
+		display: flex;
+	}
+
+	.numbersValue {
+		border: 1px solid black;
+		border-radius: 5px;
+		background-color: #F0F0F0;
+		color: black;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		cursor: pointer; /* Add this to show pointer cursor on hover */
+	  
+		margin-right: 6px; /* Right margin between buttons */
+		margin-bottom: 5px; /* Bottom margin between rows */
+		margin-top: 10px; /* Top margin between rows */
+		font-size: 12px;
+		padding: auto; /* Adjust the padding as needed for the desired button size */
+		font-size: 15px;
+	
+		font-weight: 600; /* Make the font thicker */
+		height: 50px;
+		width: 50px;
+		margin: 8px;
+	}
+
+	.numbersValue:hover{
+		background-color: #C0C0C0;
+	}
+
+	.number-container{
+		position: absolute;
+		left:174px;
+		border: 2px solid black;
+		padding: 15px;
+		margin: 15px;
+		border-radius: 5px;
+		opacity: 0;
+		transition: opacity 1s ease;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 220px;
+		width: 280px;
+		padding: 20px;
+	
+	}
+
+	.number-container.visible{
+		opacity: 1;
+	}
+
+	
+
+	.submitFormBtn2{
+		margin-top: 90px;
+		/* margin-right: 40px; */
+		position: relative;
+		right: 20px;
+		cursor: pointer;
+	}
+
+	/* .submitFormBtn2:disabled{
+		color: inherit;
+		background-color: rgb(239,239,239);
+		border: 1px solid black;
+		opacity: 1;
+		border-radius: 2px;
+
+	} */
+
+	#errorNum{
+		position: relative;
+		top: 340px;
+		left: 180px;
+	}
+
+
+/* Apply the same style to all rows */
+.row .alphabetInputButtons {
+  margin-right: 6px;
+}
+
+	.alpha-container {
+		
+		padding: 35px; /* Set your desired padding */
+		border: 2px solid black;
+		border-radius: 5px; /* Set your desired border-radius for rounded corners */
+		height: 250px;
+		width: 320px;
+		margin-top: 10px;
+		opacity: 0;
+    	transition: opacity 1s ease; /* adjust the duration as needed */
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		
+		
+	  }
+
+	  .alpha-container.visible{
+		/* visibility: visible; */
+		opacity: 1;
+	  }
+	  
+
+	  #numberInput2{
+		position: absolute;
+		top: 109px;
+		left: 330px;
+	  }
+
+	  
+
+
+
+	  .alphabetInputButtons {
+		border: 1px solid black;
+		border-radius: 5px;
+		background-color: #D3D3D3;
+		
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		cursor: pointer; /* Add this to show pointer cursor on hover */
+	  
+		margin-right: 6px; /* Right margin between buttons */
+		margin-bottom: 5px; /* Bottom margin between rows */
+		margin-top: 10px; /* Top margin between rows */
+		font-size: 12px;
+		padding: 3px; /* Adjust the padding as needed for the desired button size */
+		font-weight: 600; /* Make the font thicker */
+		margin: 8px;
+		
+		
+		
+		
+	  }
+	  
+
+
+	  .alphabetInputButtons {
+		border: 1px solid black;
+		border-radius: 5px;
+		background-color: #F0F0F0;
+		color: black;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		cursor: pointer; /* Add this to show pointer cursor on hover */
+		height: 34px;
+		width: 37px;
+		margin-right: 6px; /* Right margin between buttons */
+		margin-bottom: 12px; /* Bottom margin between rows */
+		margin-top: 1px; /* Top margin between rows */
+		
+		font-size: 15px;
+		font-weight: 600; /* Make the font thicker */
+		
+	}
+	
+	.alphabetInputButtons:hover{
+		background-color: #C0C0C0;
+	}
+	
