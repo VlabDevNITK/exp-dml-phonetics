@@ -18,10 +18,10 @@ Contributors :
 <ul style="list-style-type: none;">
 <li>Dhanush Bhat (Intern) </li>
 <li>Dhanush S Shetty (Intern) </li>
-<li>Thrusha Shetty (intern)</li>
-<li>Mohammed Nihal (intern)</li>
-<li>Rehan Nakwa (intern)</li>
-<li>Nihaal Ahammed (intern)</li>
+<li>Thrusha Shetty (Intern)</li>
+<li>Mohammed Nihal (Intern)</li>
+<li>Rehan Nakwa (Intern)</li>
+<li>Nihaal Ahammed (Intern)</li>
 <li>Prajwal Kumar | NITK</li>
 <li>Shraddha Shetty | NITK</li>
 <li>Anusha B Salian | NITK</li>
