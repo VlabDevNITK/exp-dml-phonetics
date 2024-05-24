@@ -1,8 +1,7 @@
-### Introduction
-
-### Phonetics in HAM Radio
-
 <p style="text-align:justify;">Phonetics, in the context of HAM radio and various communication fields, is a crucial element for enhancing the clarity of spoken communication. It involves the study of the physical properties of speech sounds, including how they are produced, transmitted, and perceived. The use of phonetics in HAM radio serves to ensure accurate and clear information transmission, particularly when conveying letters, numbers, or codes.</p>
+
+<p style="text-align:justify;">The International Morse Code encodes the basic Latin alphabet, some extra Latin letters, the Arabic numerals and a small set of punctuation and procedural signals as standardised sequences of short and long signals "dots" (or "dits") and "dashes" (or "dahs"), the duration of a dash is three times the duration of a dot. Each character, comprising letters, numbers, and some punctuation, is represented by a unique sequence of dots and dashes. Each dot or dash is followed by a short silence of equal duration to a dot. The letters of a word are separated by a space equal to three dots (one dash), and the words are separated by a space equal to seven dots. The dot duration is the basic unit of time measurement in code transmission.</p>
+
 
 <p style="text-align:justify;">In HAM radio, the application of phonetics includes the use of a standardized phonetic alphabet, such as the International Telecommunication Union (ITU) phonetic alphabet. This phonetic alphabet assigns specific words to each letter of the alphabet, simplifying letter identification and improving communication clarity, especially in challenging radio conditions.</p>
 
