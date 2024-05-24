@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1)Why is clear communication crucial in HAM radio?",
+      "question": "Why is clear communication crucial in HAM radio?",
       "answers": {
         "A": "Because it makes conversations more interesting. ",
         "B": "Due to the potential degradation of radio signals and the likelihood of misinterpretation. ",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2)HAM radio operators often engages  in?",
+      "question": "HAM radio operators often engages  in?",
       "answers": {
         "A": "To confuse operators from different regions.",
         "B": "To make communication more challenging.",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3)Why are phonetic numbers used in HAM radio?",
+      "question": "Why are phonetic numbers used in HAM radio?",
       "answers": {
         "A": "To make conversations more interesting.",
         "B": "To prevent confusion between digits that may sound alike. ",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4)Why is the use of phonetics considered part of the standard operating procedure (SOP) in HAM radio?",
+      "question": "Why is the use of phonetics considered part of the standard operating procedure (SOP) in HAM radio?",
       "answers": {
         "A": "To facilitate smooth communication, especially in emergency situations.",
         "B": "To confuse newcomers.",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "5)How does the use of phonetics aid in improving signal intelligibility in HAM radio?",
+      "question": "How does the use of phonetics aid in improving signal intelligibility in HAM radio?",
       "answers": {
         "A": "By preventing signal distortion.",
         "B": "By making signals louder. ",
@@ -87,7 +87,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "1)In HAM radio, what impact does signal interference have on communication?",
+      "question": "In HAM radio, what impact does signal interference have on communication?",
       "answers": {
         "A": "Signal interference improves communication clarity.",
         "B": "Signal interference has no impact on communication.",
@@ -104,7 +104,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "2) In HAM radio, why is practicing phonetic drills and training important for operators?",
+      "question": "In HAM radio, why is practicing phonetic drills and training important for operators?",
       "answers": {
         "A": "To impress other operators with linguistic skills.",
         "B": "To add unnecessary complexity to communication. ",
@@ -121,7 +121,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "3)How does the use of phonetics contribute to the effectiveness of HAM radio communication during adverse weather conditions?",
+      "question": "How does the use of phonetics contribute to the effectiveness of HAM radio communication during adverse weather conditions?",
       "answers": {
         "A": "By reducing the need for communication during adverse weather.",
         "B": "By making communication more challenging.",
@@ -138,7 +138,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "4) What is the significance of understanding phonetics for HAM radio operators in emergency situations?",
+      "question": "What is the significance of understanding phonetics for HAM radio operators in emergency situations?",
       "answers": {
         "A": "It is not relevant as emergency situations require different communication methods.",
         "B": "It allows operators to communicate in code.",
@@ -155,7 +155,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "5)How do phonetics help in overcoming challenges posed by weak signals in HAM radio?",
+      "question": "How do phonetics help in overcoming challenges posed by weak signals in HAM radio?",
       "answers": {
         "A": "By providing a clear and standardized method for conveying information. ",
         "B": "By introducing additional challenges",
@@ -172,7 +172,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "1)In HAM radio, what potential challenges may arise if operators do not use phonetics in communication? ",
+      "question": "In HAM radio, what potential challenges may arise if operators do not use phonetics in communication? ",
       "answers": {
         "A": " Increased likelihood of errors and misinterpretation.",
         "B": " Enhanced signal clarity due to natural pronunciation. ",
@@ -189,7 +189,7 @@
       "difficulty": "Advanced"
     },
     {
-      "question": "2)Why is the use of plain language discouraged in HAM radio for critical information?",
+      "question": "Why is the use of plain language discouraged in HAM radio for critical information?",
       "answers": {
         "A": "It violates international communication etiquette.",
         "B": "It adds an element of surprise to the communication.",
@@ -206,7 +206,7 @@
       "difficulty": "Advanced"
     },
     {
-      "question": "3)How does the use of phonetic numbers contribute to the clarity of numeric information in HAM radio? ",
+      "question": "How does the use of phonetic numbers contribute to the clarity of numeric information in HAM radio? ",
       "answers": {
         "A": "By making numeric information more complex.",
         "B": "By preventing the transmission of numeric information.",
@@ -223,7 +223,7 @@
       "difficulty": "Advanced"
     },
     {
-      "question": "4)What role does the International Radiotelephony Spelling Alphabet play in HAM radio communication?",
+      "question": "What role does the International Radiotelephony Spelling Alphabet play in HAM radio communication?",
       "answers": {
         "A": "It adds complexity to communication.",
         "B": "It provides a standardized and clear method to convey information.",
@@ -240,7 +240,7 @@
       "difficulty": "Advanced"
     },
     {
-      "question": " 5)How do phonetics aid in maintaining effective communication during long-distance HAM radio transmissions?",
+      "question": " How do phonetics aid in maintaining effective communication during long-distance HAM radio transmissions?",
       "answers": {
         "A": "By increasing signal strength.",
         "B": "By preventing signal distortion and improving signal intelligibility. ",
