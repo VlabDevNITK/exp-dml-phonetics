@@ -1,265 +1,225 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<title>SOLVE</title>
-	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-	<script type="text/javascript" src="script.js"></script>
-	<style>
-		.popup {
-			border-radius: 5px;
-			background-color: black;
-			color: white;	
-			padding: 5px;
-		}
-
-		.tooltip {
-			position: relative;
-			display: inline-block;
-			border-bottom: 1px dotted black;
-		}
-
-		.tooltip .tooltiptext {
-			left: 102px;
-			visibility: hidden;
-			width: 550px;
-			background-color: black;
-			color: #fff;
-			border-radius: 6px;
-			padding: 10px 10px 10px 10px;
-
-			/* Position the tooltip */
-			position: absolute;
-			z-index: 100;
-			text-align: center;
-		}
-
-		.tooltip:hover .tooltiptext {
-			visibility: visible;
-		}
-
-		
-
-		
-	</style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOLVE</title>
+  <meta name="description" content="A small project to remonstrate media queries and other responsive design patterns.">
+  <meta name="author" content="Rocco P">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/querry.css">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
-<body style="margin: 0; font-family: Verdana;">
-	<div id="simscreen">
-		<div id="title"><h3>Exploring Ham Radio : Phonetics</h3>
-		</div>
 
-		<div class="simsubscreen" id="canvas0"><br>
-			<h4 class="incanvas" >Objective:</h4><br>
-				<p class="incanvas" style="font-size: 14px;">To familiarize individuals with the use of phonetics in HAM
-					radio communication, including the International Telecommunication Union (ITU) phonetic alphabet,
-					and
-					its importance in ensuring clear and accurate information transmission during radio operations.
-				</p><br />
-				<h4 class="incanvas">Description:</h4><br>
-					<p class="incanvas" style="text-align: justify; font-size: 14px ;">Phonetics, in the context of HAM radio and various communication
-						fields, is a crucial element for enhancing the clarity of spoken communication. It involves the
-						study of
-						the physical properties of speech sounds, including how they are produced, transmitted, and
-						perceived.
-						The use of phonetics in HAM radio serves to ensure accurate and clear information transmission,
-						particularly when conveying letters, numbers, or codes.<br>
-						<br>
-					</p>
-					<p class="incanvas" style="text-align: justify; font-size: 14px ;">In HAM radio, the application of phonetics includes the use of a standardized
-						phonetic alphabet, such as
-						the International Telecommunication Union (ITU) phonetic alphabet. This phonetic alphabet
-						assigns
-						specific words to each letter of the alphabet, simplifying letter identification and improving
-						communication clarity, especially in challenging radio conditions.<br>
-						<br>
-					</p>
-					<p class="incanvas" style="text-align: justify; font-size: 14px ;">Phonetics in HAM radio primarily focuses on spoken words to enhance clarity and
-						minimize errors during
-						voice communication, making it an essential tool for effective and reliable radio operations.
-					</P>
-					<br></p>
-					</p>
+<body class="paintitred">
 
-					<div id="nav">
-						<img id="Nextbutton" src="images/Next.png" class="nextbutton" onclick="nextCanvas()" />
-					</div>
+  <main class="content">
+    <div class="main-heading">
+      <h1>Exploring Morse Code: Phonetics</h1>
 
-		</div>
+    </div>
+    <div class="main-canvas">
+      <div class="simsubscreen" id="canvas0">
+        <div class="grid-page1">
+          <h4 class="incanvas">Objective:</h4>
+          <p class="incanvas" style="font-size:14px;text-align: justify;">To develop a comprehensive understanding of
+            the International Telecommunication Union (ITU) phonetics.</p>
+          <br />
 
-	</div>
+          <br>
+          <h4 class="incanvas">Description:</h4>
 
+          <p class="incanvas" style="font-size:14px; text-align: justify;">
+            Phonetics, in the context of HAM radio and various communication fields, is a crucial element for enhancing
+            the clarity of spoken communication.
+            It involves the study of the physical properties of speech sounds,
+            including how they are produced, transmitted, and perceived.
+            The use of phonetics in HAM radio serves to ensure accurate and clear information transmission, particularly
+            when conveying letters, numbers, or codes. <br>
+            <br>In HAM radio, the application of phonetics includes the use of a standardized phonetic alphabet, such as
+            the International Telecommunication Union (ITU) phonetic alphabet.
+            This phonetic alphabet assigns specific words to each letter of the alphabet, simplifying letter
+            identification and improving communication clarity, especially in challenging radio conditions.
+            <br>
+            <br>
+            Phonetics in HAM radio primarily focuses on spoken words to enhance clarity and minimize errors during voice
+            communication, making it an essential tool for effective and reliable radio operations.
 
-	<div class="simsubscreen" id="canvas1" style="visibility:hidden;">
-		<div class="allignment">
-			<strong class="incanvas">STEP</strong>
-			<span class="circlebg">&nbsp;1&nbsp;</span>
-			<p class="steptext" style="font-family: Verdana; font-size: 14px; ">&nbsp; Select any of the following options.</p>
-		</div>
+            Phonetics provide a standardized and clear method to convey information, reducing the likelihood of errors.The phonetic alphabet, 
+            also known as the International Radiotelephony Spelling Alphabet, was developed to ensure uniformity and clarity in radio communication 
+            across different languages and accents.
+          </p>
+
+        </div>
+
+      </div>
+      <div class="simsubscreen" id="canvas1" name="canvas1" style="display: none;">
 
 
-		<form>
-			<input type="radio" id="alphabets" name="select_option" value="Alphabets" onclick="showImage('canvas2')" />
-			<label for="alphabets">Alphabets</label><br /><br />
-			<input type="radio" id="figure-code" name="select_option" value="Figure-code"
-				onclick="showImage('canvas3')" />
-			<label for="figure-code">Figure code</label><br />
-		</form>
-		<img id="nextImage" src="images/Next.png" class="nextbutton" alt="NEXT" style="display: none;"
-			onclick="redirectToCanvas()" />
-	</div>
+          <strong class="incanvas">STEP:</strong>
+          <p class="steptext">&nbsp;Choose either "Alphabets" or "Figure Code," then click any option in the table.
 
-	<div class="simsubscreen" id="canvas2" style="visibility:hidden;">
-		<div class="allignment">
-			<strong class="incanvas">STEP</strong>
-			<span class="circlebg">&nbsp;2&nbsp;</span>
-			<p class="steptext">&nbsp;Select the alphabet provided below, and then click on the submit button to start the transmission process.</p>
-		</div>
-		<div class="select">
-			<label for="alphabetInput">Select the Alphabet:</label>
-			<p id="outputValue2"></p>
-			<input type="text" id="alphabetInput" placeholder="A-Z or a-z" style="display: none;">
-			<div class="alpha-container">
-				<div class="firstRow">
-				<div class="alphabetInputButtons" onclick="selectAlphabet('A')">A<span class="lowercase">a</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('B')">B<span class="lowercase">b</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('C')">C<span class="lowercase">c</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('D')">D<span class="lowercase">d</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('E')">E<span class="lowercase">e</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('F')">F<span class="lowercase">f</span></div>
-			</div>
-				<div class="secondRow">
-				<div class="alphabetInputButtons" onclick="selectAlphabet('G')">G<span class="lowercase">g</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('H')">H<span class="lowercase">h</span></div>
-				<div  class="alphabetInputButtons" onclick="selectAlphabet('I')">I<span class="lowercase">i</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('J')">J<span class="lowercase">j</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('K')">K<span class="lowercase">k</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('L')">L<span class="lowercase">l</span></div>
-				</div>
-				<div class="thirdRow">
-				<div class="alphabetInputButtons" onclick="selectAlphabet('M')">M<span class="lowercase">m</span></div>	  
-				<div class="alphabetInputButtons" onclick="selectAlphabet('N')">N<span class="lowercase">n</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('O')">O<span class="lowercase">o</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('P')">P<span class="lowercase">p</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('Q')">Q<span class="lowercase">q</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('R')">R<span class="lowercase">r</span></div>
-			</div>
-			<div class="fourthRow">
-				<div class="alphabetInputButtons" onclick="selectAlphabet('S')">S<span class="lowercase">s</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('T')">T<span class="lowercase">t</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('U')">U<span class="lowercase">u</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('V')">V<span class="lowercase">v</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('W')">W<span class="lowercase">w</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('X')">X<span class="lowercase">x</span></div>
-			</div>
-				<div class="fifthRow">
-				<div class="alphabetInputButtons" onclick="selectAlphabet('Y')">Y<span class="lowercase">y</span></div>
-				<div class="alphabetInputButtons" onclick="selectAlphabet('Z')">Z<span class="lowercase">z</span></div>
-			</div>			  
-		</div>
-	</div>
-		<br>
-		<br>
-		<div class="sub">
-			<button class="submitFormBtn"  onclick="submitForm('alphabet')">Submit</button>
-		</div>
-		
-		<div id="errorMessage" class="error-message"></div>
-		<span id="errorAlpha"></span>
-	</div>
+          </p>
 
+          <form class="formDiv">
+            <input type="radio" id="alphabets" name="select_option" value="Alphabets"
+              onclick="toggleTable('alphabets')" />
+            <label for="alphabets" style="font-weight: bold;">Alphabets</label><br /><br />
+            <input type="radio" id="figure-code" name="select_option" value="Figure-code"
+              onclick="toggleTable('figure-code')" />
+            <label for="figure-code" style="font-weight: bold;">Figure code</label><br />
+          </form>
 
+            <p class="morse" id="numberMorse" hidden></p>
+            <div class="morsePlay">
+              <span class="out "></span>
+              <span class="output" style="display: none;"></span>
+              <button id="playButton" onclick="playMorseSequence()">Play</button>
 
-	<div class="simsubscreen" id="canvas3" style="visibility:hidden;">
-		
-		<div class="allignment">
-			<strong class="incanvas">STEP</strong>
-			<span class="circlebg">&nbsp;2&nbsp;</span>
-			<p class="steptext">&nbsp;Select the figure code (0–9, 0.0, or . ) in the box provided. 
-				Click on the submit button to start the transmission process.</p>
-		</div>
+              <p>
+                <span id="morseOutput" class="out2" class="morse-char-initial" id="morse-output1"></span>
+              </p>
+            </div>
 
+            <div id="mainDiv2" style="display: none; align-items: center; justify-content: center;">
+            <div class="phoneticsDiv">
+              <div class="alpha1">Selected alphabet: <span class="alphaSelect"></span> </div>
+              <div class="alpha2">Phonetic equivalent: <span class="phoneticsText"></span> </div>
+              <div class="num1" style="display: none;">Selected figureCode: <span class="figurecodeSelect"></span>
+              </div>
+              <div class="num2" style="display: none;">Phonetic equivalent: <span class="phoneticsText2"></span> </div>
+            </div>
+          </div>
+            <div class="pronounceDiv">
+              <button id="pronounce">Pronounce</button>
+            </div>
+            <div class="audText">
+              <p class="text3 ad">keep audio on
+              </p>
+            </div>
+            <div class="spokenvaleDiv" style="visibility: hidden;height: 50px;">
+              <div class="spokenvalue"></div>
+            </div>
+            <div class="menu-container" id="alphabetTable">
+              <div class="outer-border">
+                <div class="table-container">
+                  <div class="Q-Box" id="q1" onclick="displaySelection('alphabet', 'A')">A <span
+                      class="lowercase">a</span> </div>
+                  <div class="Q-Box" id="q2" onclick="displaySelection('alphabet', 'B')">B<span
+                      class="lowercase">b</span></div>
+                  <div class="Q-Box" id="q3" onclick="displaySelection('alphabet', 'C')">C<span
+                      class="lowercase">c</span></div>
+                  <div class="Q-Box" id="q4" onclick="displaySelection('alphabet', 'D')">D<span
+                      class="lowercase">d</span></div>
+                  <div class="Q-Box" id="q5" onclick="displaySelection('alphabet', 'E')">E<span
+                      class="lowercase">e</span></div>
+                  <div class="Q-Box" id="q6" onclick="displaySelection('alphabet', 'F')">F<span
+                      class="lowercase">f</span></div>
+                  <div class="Q-Box" id="q7" onclick="displaySelection('alphabet', 'G')">G<span
+                      class="lowercase">g</span></div>
+                  <div class="Q-Box" id="q8" onclick="displaySelection('alphabet', 'H')">H<span
+                      class="lowercase">h</span></div>
+                  <div class="Q-Box" id="q9" onclick="displaySelection('alphabet', 'I')">I<span
+                      class="lowercase">i</span></div>
+                  <div class="Q-Box" id="q10" onclick="displaySelection('alphabet', 'J')">J<span
+                      class="lowercase">j</span></div>
+                  <div class="Q-Box" id="q11" onclick="displaySelection('alphabet', 'K')">K<span
+                      class="lowercase">k</span></div>
+                  <div class="Q-Box" id="q12" onclick="displaySelection('alphabet', 'L')">L<span
+                      class="lowercase">l</span></div>
+                  <div class="Q-Box" id="q13" onclick="displaySelection('alphabet', 'M')">M<span
+                      class="lowercase">m</span></div>
+                  <div class="Q-Box" id="q14" onclick="displaySelection('alphabet', 'N')">N<span
+                      class="lowercase">n</span></div>
+                  <div class="Q-Box" id="q15" onclick="displaySelection('alphabet', 'O')">O<span
+                      class="lowercase">o</span></div>
+                  <div class="Q-Box" id="q16" onclick="displaySelection('alphabet', 'P')">P<span
+                      class="lowercase">p</span></div>
+                  <div class="Q-Box" id="q17" onclick="displaySelection('alphabet', 'Q')">Q<span
+                      class="lowercase">q</span></div>
+                  <div class="Q-Box" id="q18" onclick="displaySelection('alphabet', 'R')">R<span
+                      class="lowercase">r</span></div>
+                  <div class="Q-Box" id="q19" onclick="displaySelection('alphabet', 'S')">S<span
+                      class="lowercase">s</span></div>
+                  <div class="Q-Box" id="q20" onclick="displaySelection('alphabet', 'T')">T<span
+                      class="lowercase">t</span></div>
+                  <div class="Q-Box" id="q21" onclick="displaySelection('alphabet', 'U')">U<span
+                      class="lowercase">u</span></div>
+                  <div class="Q-Box" id="q22" onclick="displaySelection('alphabet', 'V')">V<span
+                      class="lowercase">v</span></div>
+                  <div class="Q-Box" id="q23" onclick="displaySelection('alphabet', 'W')">W<span
+                      class="lowercase">w</span></div>
+                  <div class="Q-Box" id="q24" onclick="displaySelection('alphabet', 'X')">X<span
+                      class="lowercase">x</span></div>
+                  <div class="Q-Box" id="q25" onclick="displaySelection('alphabet', 'Y')">Y<span
+                      class="lowercase">y</span></div>
+                  <div class="Q-Box" id="q26" onclick="displaySelection('alphabet', 'Z')">Z<span
+                      class="lowercase">z</span></div>
 
-		<div class="select">
-			<label for="numberInput">Select the Number:</label>
-		<input type="text" id="numberInput" style="width: 100px; text-align: center; display: none;" readonly>
-		<span  id="numberInput2"  ></span>
+                </div>
+              </div>
+            </div>
 
-<div id="numberButtons" style="display: flex; justify-content: space-around;">
-	<div class="number-container">
-	<div class="firstRowNumbers">
-    <div class="numbersValue" onclick="selectNumber('0')">0</div>
-    <div class="numbersValue" onclick="selectNumber('1')">1</div>
-    <div class="numbersValue" onclick="selectNumber('2')">2</div>
-    <div class="numbersValue" onclick="selectNumber('3')">3</div>
-</div>
-<div class="secondRowNumbers">
-    <div class="numbersValue" onclick="selectNumber('4')">4</div>
-    <div class="numbersValue" onclick="selectNumber('5')">5</div>
-    <div class="numbersValue" onclick="selectNumber('6')">6</div>
-    <div class="numbersValue" onclick="selectNumber('7')">7</div>
-</div>
-<div class="thirdRowNumbers">
-    <div class="numbersValue" onclick="selectNumber('8')">8</div>
-    <div class="numbersValue" onclick="selectNumber('9')">9</div>
-    <div class="numbersValue" onclick="selectNumber('0.0')">0.0</div>
-    <div class="numbersValue" onclick="selectNumber('.')">.</div>
-</div>
-</div>
-</div>
-		</div>
-		
-		<sapn id="errorMessage1" ></sapn>
-		<span id="errorNum"></span>
-		<br>
-		<br>
-		
-		<div class="btn">
-			<button id="subNumForm2" class="submitFormBtn2" onclick="submitForm('number')">Submit</button>
-		</div>
+            <div class="menu-container2" id="figureCodeTable" style="display: none;">
+              <div class="outer-border2">
+                <div class="table-container2">
+                  <div class="Q-Box" id="n1" onclick="displaySelection('number', '0')">0</div>
+                  <div class="Q-Box" id="n2" onclick="displaySelection('number', '1')">1</div>
+                  <div class="Q-Box" id="n3" onclick="displaySelection('number', '2')">2</div>
+                  <div class="Q-Box" id="n4" onclick="displaySelection('number', '3')">3</div>
+                  <div class="Q-Box" id="n5" onclick="displaySelection('number', '4')">4</div>
+                  <div class="Q-Box" id="n6" onclick="displaySelection('number', '5')">5</div>
+                  <div class="Q-Box" id="n7" onclick="displaySelection('number', '6')">6</div>
+                  <div class="Q-Box" id="n8" onclick="displaySelection('number', '7')">7</div>
+                  <div class="Q-Box" id="n9" onclick="displaySelection('number', '8')">8</div>
+                  <div class="Q-Box" id="n10" onclick="displaySelection('number', '9')">9</div>
+                  <div class="Q-Box" id="n11" onclick="displaySelection('number', '0.0')">0.0</div>
+                  <div class="Q-Box" id="n12" onclick="displaySelection('number', '.')">.</div>
 
-	</div>
+                </div>
+              </div>
+            </div>
 
-	<div class="simsubscreen" id="canvas4" style="visibility:hidden;">
-		<div class="allignment">
-			<strong class="incanvas">STEP</strong>
-			<span class="circlebg">&nbsp;3&nbsp;</span>
-			<p style="font-size:90%;" class="steptext" id="StepText">&nbsp;</p>
-		</div>
-		<div class="inline-paragraphs">
-			<p id="observationText"></p>
-			<p id="outputValue"></p>
-			<p id="phoneticsLabel">Relevant phonetics:</p>
-			<p id="phoneticsValue"></p>
-		</div>
-		<br>
-		<br>
-		<br>
-
-		<button id="pronounceButton" class="button button1" onclick="pronounce()">Pronounce</button>
-		<p style="text-align:center; padding-bottom: 50px;position: absolute;    right: 335px;
-		bottom: 138px;
-		font-size: 71%;">Keep sound on!</p>
-		<div id="spokenValueDisplay"></div>
-		<div class="image">
-			<!-- <img  src="repeat.png" alt="repeat" > -->
-			<button id="repeatImage" onclick="repeatButtonClicked()">
-			<span class="material-symbols-outlined" style="position: relative; top: 6px;">
-				repeat
-				</span>
-				<div class="repeatText" style="font-size: 13px;"><i class="material-icons"></i>Repeat</div>
-			</button>
-		</div>
-
-	</div>
+              <div id="backDiv">
+                <button id="backButton">
+                  <img src="./images/left-arrow-in-circular-button-black-symbol.png" alt="Back">
+                  Back</button>
 
 
-	<div id="copyright"> &copy;2023-<script>document.write(new Date().getFullYear())</script> SOLVE - The Virtual Lab @ NITK Surathkal, Department
-		of Water Resources & Ocean Engineering
-	</div>
-	</div>
+              </div>
+
+            <!-- <div class="infoQcode">
+              <div id="questOutput"></div>
+              <div id="answerOutput"></div>
+            </div> -->
+    
+           
+
+            <div class="errorText2">
+              <div id="errorText" style="color: red; text-align: center;"></div>
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
+      </div>
+
+
+      <div id="nav">
+
+        <img id="nextButton" onclick="navNext()" src="images/Next.png" alt="" /></a>
+
+      </div>
+      <div id="copyright"> &copy; <script>
+          document.write(new Date().getFullYear() - 1);
+          document.write(" - ");
+          document.write(new Date().getFullYear());
+        </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
+    </div>
+    <!-- </div> -->
+  </main>
 </body>
 
 </html>
